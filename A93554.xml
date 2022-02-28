@@ -1,0 +1,662 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Somnium Cantabrigiense, or A poem vpon the death of the late King brought to London, by a post to the muses.</title>
+            <author>Post to the Muses.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1650</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 22 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A93554</idno>
+            <idno type="STC">Wing S4670</idno>
+            <idno type="STC">Thomason E596_5</idno>
+            <idno type="STC">ESTC R206944</idno>
+            <idno type="EEBO-CITATION">99866029</idno>
+            <idno type="PROQUEST">99866029</idno>
+            <idno type="VID">165578</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A93554)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 165578)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 91:E596[5])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Somnium Cantabrigiense, or A poem vpon the death of the late King brought to London, by a post to the muses.</title>
+                  <author>Post to the Muses.</author>
+               </titleStmt>
+               <extent>[2], 13, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Matthew Simmons next doore to the Golden Lyon in Aldersgate Street,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1650.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Annotation on Thomason copy: "March 20"; the imprint date has been altered to 1649.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  History --  Puritan Revolution, 1642-1660 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-05</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2010-05</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:165578:1" rendition="simple:additions"/>
+            <p>SOMNIUM CANTABRIGIENSE, OR A POEM Vpon the death of the late King brought to <hi>London,</hi>
+            </p>
+            <p>
+               <hi>By a Poſt to the Muſes.</hi>
+            </p>
+            <p>
+               <hi>LONDON, Printed by</hi> Matthew Simmons <hi>next doore to the Golden Lyon in Alderſgate Street.</hi> 1649.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:165578:2"/>
+            <pb n="1" facs="tcp:165578:2"/>
+            <head>To the famous Dreamer <hi>JOHN Q<g ref="char:V">Ʋ</g>ARLES,</hi> Ordinarie Poet to CHARLES the SECOND.</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">G</seg>Entleman Poet come of <hi>Sire,</hi>
+               </l>
+               <l>Who to the <hi>Muſes</hi> was a Squire;</l>
+               <l>In Verſe thou very Naturall,</l>
+               <l>And no way Artificiall</l>
+               <l n="5">
+                  <hi>John Quarles,</hi> I the <hi>Muſes</hi> poſt</l>
+               <l>Implore thine aid, (who rul'ſt the roaſt,</l>
+               <l>Helpes the <hi>Kitchin Maids</hi> to Papers</l>
+               <l>To cover it, and ſet up <hi>Tapers,</hi>
+               </l>
+               <l>Who leaſt a <hi>Vacuum</hi> ſhould bee,</l>
+               <l n="10">
+                  <hi>Ballads</hi> forbid in Poetrie,</l>
+               <l>Haſt in ſpight of Angrie Times,</l>
+               <l>Publiſh'd many dreaming Rhimes)</l>
+               <l>To aſſiſt with might and maine,</l>
+               <l>Me in ſuch a dreaming Veine.</l>
+            </lg>
+            <lg>
+               <l n="15">The Daughters of <hi>Mnemoſyne</hi>
+               </l>
+               <l>Can help no more then they did thee;<note n="a" place="margin">The <gap reason="illegible" resp="#UOM" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </note>
+               </l>
+               <l>
+                  <pb n="2" facs="tcp:165578:3"/>
+For hardlie either thou or I,</l>
+               <l>Could ſleep ſo many Maids being by,</l>
+               <l>How ſhould we dreame then? and I feare</l>
+               <l n="20">Could wee, 't would be of them were there.</l>
+               <l>
+                  <hi>Apollo</hi> is the God of Day,</l>
+               <l>And ſo aſſiſt me neither may,</l>
+               <l>Nor will; for feare <hi>Diana</hi> might</l>
+               <l>Sue Him for treſpaſſe on her right,</l>
+               <l n="25">And the Man is ſo unrulie</l>
+               <l>In the Moone ſhe cannot truly.</l>
+            </lg>
+            <lg>
+               <l>None better therefore than thy ſelfe,</l>
+               <l>Can I invoke, Thou Rhimeing Elfe;</l>
+               <l>Come a Dreamer can infuſe,</l>
+               <l n="30">Vertue into a Sleeepie <hi>Muſe.</hi>
+               </l>
+               <l>Then if Thou haſt any pittie,</l>
+               <l>Teach me how to dreame a dittie,</l>
+               <l>Let my Verſe be like my Theame</l>
+               <l>Dull, and heavie, ſuch as thy Dreame,</l>
+               <l n="35">Which ſuch due proportion kept,</l>
+               <l>Wee are covinc't, thy wit too ſlept:</l>
+               <l>That all who reade me may proteſt,</l>
+               <l>I dreame in earneſt too, not jeſt</l>
+               <l>But if thou do'ſt deny me, Know</l>
+               <l n="40">Thy Booke ſhall never ſay me no.</l>
+            </lg>
+            <lg>
+               <head>The Apologie.</head>
+               <l>GEntlemen, ſure 'tis neither <hi>Law</hi> nor <hi>Reaſon,</hi>
+               </l>
+               <l>A man ſhould be attaint for dreaming <hi>Treaſon;</hi>
+               </l>
+               <l>But if it ſhould, 'tis nothing unto me,</l>
+               <l>Another dream't, and told it as you ſee:</l>
+               <l>Yet both have more than dream't, (you ſay) this Act</l>
+               <l>Hath chang'd the dreaming of it into fact:</l>
+               <l>
+                  <pb n="3" facs="tcp:165578:3"/>
+'Tis true we writ, and publiſhed this ſtorie,</l>
+               <l>Good cauſe we knew we ſhould be acceſſorie</l>
+               <l>Should we conceale it: Thus to cleare all doubt</l>
+               <l>Of our Integrities, wee put it out</l>
+               <l>You ſee; if any danger's in the thing,</l>
+               <l>Who can runn faſteſt may acquaint his King.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>The Character of the Dreamer, and your Friend the bringer of it in Verſe</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">T</seg>He Dreamer is a man of ſome degree,</l>
+               <l>A Bachilar of <hi>Art,</hi> paſt Sophiſtrie:</l>
+               <l>An able diſputant, you need not feare</l>
+               <l>A fallacie in whats preſented here:</l>
+               <l>Had<note n="b" place="margin">Two Fel<g ref="char:EOLhyphen"/>lowes of Keyes Col<g ref="char:EOLhyphen"/>ledge who pretend to Revelations.</note> 
+                  <hi>Philips</hi> ſeen as much, or <hi>Harrington,</hi>
+               </l>
+               <l>They would have cry'd a Revelation.</l>
+               <l>But he averr'd it non-ſenſe, for to write,</l>
+               <l>That he (when faſt aſleep) ſaw a new light:</l>
+               <l>He is ſo Orthodox, hee'd rather be</l>
+               <l>A Dreaming fellow thought, than Sectarie;</l>
+               <l>All ſuch he hates more, than he loves a King,</l>
+               <l>Or Biſhiop, never doubt then what wee ſing:</l>
+               <l>He deeply ſwore all true, and I am loath,</l>
+               <l>To have him put to dreame another Oath,</l>
+               <l>He bid me tell you too, if any doe</l>
+               <l>Doubt it or me, They may to <hi>Cambridge</hi> goe,</l>
+               <l>
+                  <pb n="4" facs="tcp:165578:4"/>
+To him; but ſure you may believe your eyes</l>
+               <l>As ſoone as eares, 'tis cheaper; then be wiſe.</l>
+            </lg>
+            <lg>
+               <l>And I your Verſer, Gentlemen believ't,</l>
+               <l>For Age and ſtanding too might have morewit.</l>
+            </lg>
+            <lg>
+               <l>Yet by the way know this, when firſt I ſaw</l>
+               <l>That Reverend utter <hi>Barriſter</hi> at Law;</l>
+               <l>Hight <hi>William Prynne</hi> was turn'd an arrant Poet.</l>
+               <l>I thought no wiſe man ere againe would doe it:</l>
+               <l>Would he in Lawyers Lattine Verſe as much;</l>
+               <l>He might doe wondrous Service 'gainſt the Dutch;</l>
+               <l>How would he yoake<note n="c" place="margin">Who hath written moſt dull verſes againſt the State.</note> 
+                  <hi>Salmaſius,</hi> and that foole?</l>
+               <l>Who ſure miſtooke, and ſlept on Mount<note n="d" place="margin">The Caſtle <hi>Pryn</hi> was Priſoner in.</note> 
+                  <hi>Orgule</hi>
+               </l>
+               <l>Inſtead of Mount <hi>Parnaſſus,</hi> and of <hi>Rhene,</hi>
+               </l>
+               <l>Or butter-milke hath ſwil'd, for <hi>Hyppcrene.</hi>
+               </l>
+               <l>But <hi>Pryn's</hi> on their ſide, and againſt the State</l>
+               <l>You ſay, let him deplorethen <hi>Charles</hi> his fate,</l>
+               <l>And verſe ſo like himſelfe; that all may ſweare,</l>
+               <l>He is to <hi>Ignoramus</hi> lawfull Heire:</l>
+               <l>Thus he, and his <hi>Dutch</hi> dull-men may perchance</l>
+               <l>(If Fortune favour fooles) Themſelves advance.</l>
+            </lg>
+            <lg>
+               <l>I ſay when firſt I ſaw <hi>Pryns</hi> Mount<note n="f" place="margin">His Poem he thus ſtiles in honour to that place where he writ it.</note> 
+                  <hi>Orgule.</hi>
+               </l>
+               <l>To which no Man can Rhime, nor word but Foole.</l>
+               <l>And he muſt be an arrant one too, who</l>
+               <l>In Engliſh Verſe like <hi>William Pryn</hi> ſhall doe.</l>
+               <l>I was let blood in the Poetike Veine,</l>
+               <l>And drench't for ever ſwallowing Verſe againe.</l>
+               <l>And ſo remain'd, till of a verſing kinde,</l>
+               <l>A dreaming Poet rectifi'd my minde,</l>
+               <l>And ſo inſpir'd my Breſt, I could not chuſe,</l>
+               <l>But here preſent you with a dreaming <hi>Muſe:</hi>
+               </l>
+               <l>The Dreamer too beſought a friend to write</l>
+               <l>For him, whoſe Braines were troubled to indite</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="5" facs="tcp:165578:4"/>
+            <head>The Dreame.</head>
+            <lg>
+               <l>THe Worlds bright eye had in its lid the Weſt</l>
+               <l>Cloſed all Beames, and night inviting-reſt</l>
+               <l>Had drawne her ſable Curtaines round the skie,</l>
+               <l>And ſpread abroad her ſtarr deckt <hi>Canopie.</hi>
+               </l>
+               <l n="5">The God of ſleep had ſummon'd every Breaſt,</l>
+               <l>On its Allegiance to repaire to reſt.</l>
+               <l>But this moſt ſorrowfull Sir would not obey,</l>
+               <l>He heard the King had loſt his Head that day:</l>
+               <l>Frantick with rage and griefe he thus replies;</l>
+               <l n="10">How can wee ſleep dull God without our eyes?</l>
+               <l>Which wee have loſt in loſing of our Head</l>
+               <l>Thine Empire is expir'd now <hi>CHARLES</hi> is dead,</l>
+               <l>And wee Deaths Conqueſt, whoſe keen Axes edge</l>
+               <l>Will vindicate thy breach of priviledge.</l>
+               <l>This ſaid, he takes a bottle, ſorrowe's drye,</l>
+               <l>And drinking, vow'd to write an <hi>ELEGIE.</hi>
+               </l>
+               <l>
+                  <hi>Then cryes (his bottle plying ſtill) divine,</hi>
+               </l>
+               <l>
+                  <hi>And mighty ſack no fancie can decline</hi>
+               </l>
+               <l>
+                  <hi>So low, but Thou canſt raiſe it, onlie Thou</hi>
+               </l>
+               <l n="20">
+                  <hi>Canſt give a dumbe Muſe voice; O doe then throw</hi>
+               </l>
+               <l>
+                  <hi>So rich infuſion through my heavie Braine,</hi>
+               </l>
+               <l>
+                  <hi>That I reviv'd may reach as high a ſtraine</hi>
+               </l>
+               <l>
+                  <hi>In <g ref="char:V">Ʋ</g>erſe as Thou canſt give, and here I vow,</hi>
+               </l>
+               <l>
+                  <hi>Freſh Laurels ſhall empale thy ſparkling brow,</hi>
+               </l>
+               <l n="25">
+                  <hi>And the wide world ſhall know only thy Might,</hi>
+               </l>
+               <l>
+                  <hi>Can make a Poet loftilie Endite.</hi>
+               </l>
+               <l>Thus ſpoke He, and then drinkes; <hi>Morpheus</hi> ſtood by,</l>
+               <l>And ſmiling to himſelfe did thus reply:</l>
+               <l>
+                  <pb n="6" facs="tcp:165578:5"/>
+Fondling alas! do'ſt think that ſack can make</l>
+               <l n="30">Thee finde thy feet, which doth from others take</l>
+               <l>All uſe of Leggs? but thou ſhalt quickly feel,</l>
+               <l>Our Maſe as ſoone as Sack can make thee reel;</l>
+               <l>And ſince thou art ſo ſaucie, thou ſhalt know</l>
+               <l>Our power, and what the God of ſleep can doe:</l>
+               <l n="35">This ſaid, he laid his Mace upon his Head,</l>
+               <l>Who ſtreight ſanke downe aſleep into his Bed.</l>
+            </lg>
+            <lg>
+               <l>His ſenſes thus faſt bound <hi>Morpheus</hi> commands,</l>
+               <l>A nimble dream to looſe his fancies bands,</l>
+               <l>Which freed a rambling went, and made no ſtay</l>
+               <l n="40">Untill a Troope of Soldiers ſtopt its way.</l>
+            </lg>
+            <lg>
+               <l>This Troop beſmear'd, with blood &amp; duſt thus cri'd</l>
+               <l>
+                  <hi>England</hi> is free, great <hi>Jove</hi> be magnifi'd,</l>
+               <l>And our juſt cauſe exaulted, thus they went,</l>
+               <l>Untill they came, where ſate the Parliament,</l>
+               <l>And <hi>Englands Genius</hi> in the midſt enthron'd</l>
+               <l>Whoſe Temples were with Verdant Laurell crown'd.</l>
+            </lg>
+            <lg>
+               <l>The Soidiers ſeen ſtand! <hi>Englands Geniuss</hi> cryes,</l>
+               <l>Your Servants, their brave Chiefe bowing replyes,</l>
+               <l>Whoſe lives attended on your high command,</l>
+               <l n="50">To know your further pleaſure here doe ſtand.</l>
+            </lg>
+            <lg>
+               <l>Welcome, thrice welcome, ſayes he, to theſe armes</l>
+               <l>Are you, whoſe courage hath preſerv'd from harmes</l>
+               <l>Your Countrie, and her freedome; t' you I owe</l>
+               <l>This Laureat wreath, which now empales my Brow,</l>
+               <l n="55">Take then the Palme and Laurell from theſe hands</l>
+               <l>Which your high valour hath redeem'd from bands;</l>
+               <l>And you grave Senators, who have indur'd</l>
+               <l>The tryall, and by theſe have been ſecur'd</l>
+               <l>Embrace them, goe ye on both hand in hand,</l>
+               <l n="60">Your Counſell, and their Swords muſt ſave this I and.</l>
+               <l>Thus linked march, whil'ſt I ſhall <hi>Io's</hi> ſing</l>
+               <l>Unto your Triumphs, which through <hi>Europ</hi> ring,</l>
+               <l>
+                  <pb n="7" facs="tcp:165578:5"/>
+That Warre-like Europe which ſtands doubting now,</l>
+               <l>Whither to ſmile, or knit an angrie Brow,</l>
+               <l>On you were beſt; whoſe Tyrants though they hate</l>
+               <l>
+                  <hi>Englands</hi> example, yet feare <hi>Englands</hi> State.</l>
+               <l>For I am now in a poetike veine,</l>
+               <l>This Laurell hath ſo wrought upon my Braine:</l>
+               <l>And my firſt Subject (ſith ſome Royall Slaves</l>
+               <l n="70">In verſe, &amp; print have play'd the flattering knaves)</l>
+               <l>Shall be of that juſt Act, whereby you durſt,</l>
+               <l>Make him drinke blood, who ſo for blood did thirſt.</l>
+               <l>This ſaid, he paws'd a while, then round did looke.</l>
+               <l>And riſing, thrice his comelie treſſes ſhooke.</l>
+            </lg>
+            <lg>
+               <l n="75">Admited <hi>Ovid</hi> thus affirmes his <hi>Jove,</hi>
+               </l>
+               <l>Having conveen'd a Parliament above</l>
+               <l>Of Gods and Goddeſſes, before he ſpake</l>
+               <l>To them did thus his dreadfull treſſes ſhake.</l>
+               <l>Thus daunce the Othes in circular careers</l>
+               <l n="80">At the Celeſtiall muſick of the Spheares:</l>
+               <l>And thus Prophetike <hi>Sibill</hi> when ſhe ſung,</l>
+               <l>Inſpired Layes about her head ſhe flung:</l>
+            </lg>
+            <lg>
+               <l>Mock not malignants then, for no way fit</l>
+               <l>It is the Tongue ſhould runne before the wit:</l>
+               <l>Nor <hi>Soloeciſme</hi> can you it ever prove</l>
+               <l>To ſee the head at the tongues motion move,</l>
+               <l>Which ſhewes that reaſon from her throne aſſents;</l>
+               <l>To that the tongue by vocall accents vents,</l>
+               <l>And that the ſoule Qneen Regent doth conferr,</l>
+               <l n="90">On it the office of Interpreter.</l>
+               <l>This geſture with the Subject ſuteth well</l>
+               <l>
+                  <hi>Jove</hi> of <hi>Lycaon,</hi> He of <hi>Charles</hi> doth tell;</l>
+               <l>And doe but you what he enditeth read,</l>
+               <l>I'me confident 't will make you ſhake the Head,</l>
+            </lg>
+            <lg>
+               <l n="95">Which was, if you or Wee the Dreamer may</l>
+               <l>Believe, even word for word with this we ſay.</l>
+            </lg>
+            <lg>
+               <pb n="8" facs="tcp:165578:6"/>
+               <l>Be free my fancie, for the Tyrant's dead,</l>
+               <l>And finde thy feete now he hath loſt his head.</l>
+               <l>The ſhackles are fil'd off, <hi>England</hi> is free,</l>
+               <l n="100">And as my Countrie, my invention be:</l>
+               <l>In ſacred Numbers, equail Acts rehearſe,</l>
+               <l>And as they are divine, ſo be my Verſe.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Aſtraea</hi> is return'd, and whence ſhe came,</l>
+               <l>Coeleſtiall juſtice doth aloud proclaime.</l>
+               <l>
+                  <hi>Caligula's!</hi> haſt underneath your beds</l>
+               <l>It Thunders, hide, or you may looſe your heads,</l>
+               <l>
+                  <hi>The God-like Senate here, great Jove above,</hi>
+               </l>
+               <l>
+                  <hi>Accept not perſons if they guilty prove.</hi>
+               </l>
+               <l>That jugling Tyrant,<note place="margin">
+                     <hi>Salmoneus</hi> King of <hi>Elis,</hi> who making a brazen bridge, and riding in his Chariot to counterleit Thunder, was ſlaine by a Thundorbolt.</note> was from's Chariot throwne</l>
+               <l n="110">By the revengefull bolt, nor could the Crowne</l>
+               <l>Of ſtatelie <hi>Elis</hi> free him from his fate,</l>
+               <l>Who proudlie durſt the Thunderer imitate.</l>
+               <l>
+                  <hi>Ixion's</hi> Scepter could not ſcotch the Wheel,</l>
+               <l>Nor <hi>Belieſhazzer's</hi> Cups make juſtice reel.</l>
+               <l n="115">
+                  <hi>Proph ets as well as Poets, lets us ſee,</hi>
+               </l>
+               <l>
+                  <hi>That Kings from Heaven high juſtice are not free.</hi>
+               </l>
+               <l>A triple Crown's no bayle for <hi>CHARLES</hi> his Head,</l>
+               <l>Who murders men, by men his blood is ſhed:</l>
+               <l>The twice two Lyons can't defend the Throne,</l>
+               <l n="120">When he turnes Tyrant that doth ſit thereon.<note place="margin">
+                     <hi>Philip</hi> Father of <hi>Alexander</hi> the great, who ſaid, he would make an Aſſe laden with gold march into the ſtrongeſt holds.</note>
+               </l>
+               <l>
+                  <hi>Thou ſubtile Father of a va liant Sonne</hi>
+               </l>
+               <l>
+                  <hi>Had ſuch men liv'd then? Thou hadſt been undone.</hi>
+               </l>
+               <l>
+                  <hi>Gold-bearing Aſſes could thee nought availe,</hi>
+               </l>
+               <l>
+                  <hi>When golden Lyons before theſe turne Taile.</hi>
+               </l>
+               <l n="125">The Rampant Lyon gules couchant lyes,</l>
+               <l>Yea dead before his wonted ſacrifice.</l>
+               <l>Nor can the Harpe enchant which Poets ſay,</l>
+               <l>Made the unbridled Deſtinies obey,</l>
+               <l>
+                  <pb n="9" facs="tcp:165578:6"/>
+Yea <hi>Atropos</hi> to lay aſide her knife,<note place="margin">One of the three deſti<g ref="char:EOLhyphen"/>nies which cuts the thread of life.</note>
+               </l>
+               <l n="130">And helpe rewinde a then unravel'd life.</l>
+               <l>Could <hi>Orpheus</hi> with a ſound ſo eaſily bribe,</l>
+               <l>That before thought inexorable <hi>Tribe.</hi>
+               </l>
+               <l>
+                  <hi>'Tis Heavens High Court of juſtice only can</hi>
+               </l>
+               <l>
+                  <hi>And Englands claime the ſtyle impartiall than.</hi>
+               </l>
+               <l n="135">But moſt conceive <hi>CHARLES</hi> fingered ill the Harp.</l>
+               <l>And treble murders made it ſound too ſharpe</l>
+               <l>He ranne too much diviſion to appeaſe</l>
+               <l>Incenſed Heaven, whom Concord beſt doth pleaſe.</l>
+               <l>This made the Lillies fade, and Roſes lie</l>
+               <l n="140">Wither'd i'th' Feild of <hi>Englands</hi> Heraldrie.</l>
+               <l>And though they nor the Thiſtle never bud,</l>
+               <l>Which have been water'd with ſuch ſhowres of blood.</l>
+               <l>Yet <hi>Gules</hi> on Argent will enough diſpenſe,</l>
+               <l>Both <hi>Englands</hi> valour, and her innocence,</l>
+               <l n="145">For her renowned croſſe is farther known</l>
+               <l>Then Roſe or Thiſtle, though when broadeſt blown:</l>
+            </lg>
+            <lg>
+               <l>Her juſtice now Fame's Trump ſhall louder ſound,</l>
+               <l>And this great blow the earthly Globe ſurround:</l>
+               <l>Juſt, potent Senate! your victorious Arme,</l>
+               <l n="150">Shall give remoteſt Nations the alarme;</l>
+               <l>And your loud Thundring ſentence ſhall awake</l>
+               <l>The drowſieſt ſlaves, whil'ſt proudeſt Tyrants quake.</l>
+               <l>
+                  <hi>Thus when high Jove, his threefork'd lightning flings,</hi>
+               </l>
+               <l>
+                  <hi>Th' oppreſſor trembles, but the oppreſſed ſings.</hi>
+               </l>
+               <l n="155">Let <hi>Rome</hi> now ceaſe, to boaſt her <hi>Erutus</hi> name,</l>
+               <l>And her bold Senate lackey to your fame;</l>
+               <l>Set her proud <hi>Tarquin</hi> lower on Record,</l>
+               <l>His pettie Tyrannies can naught afford</l>
+               <l>May equall <hi>Charles's?</hi> whoſe licentious reigne</l>
+               <l n="160">Out-went what he durſt wiſh, or <hi>Rome</hi> could faine.</l>
+               <l>
+                  <hi>Tullia</hi> aſcended by her Fathers Tombe</l>
+               <l>And poyſon'd <hi>James</hi> for <hi>Charles,</hi> and <hi>George</hi> made room.</l>
+               <l>
+                  <pb n="10" facs="tcp:165578:7"/>
+She drove her Chariot o're the murdered King,</l>
+               <l>The Parliament's diſſol'vd for queſtioning</l>
+               <l n="165">Endeared <hi>Buckingham.</hi> Was <hi>Charles</hi> too nigh</l>
+               <l>In blood to <hi>James,</hi> even in his Tragedie?</l>
+               <l>Who could have thought but juſtice would be done</l>
+               <l>The Father murtherd, and the Judge the Sonne:</l>
+               <l>Poore Cobweb Lawes! The Sonne whom you juge fit,</l>
+               <l n="170">To follow the inditement, hindred it.</l>
+               <l>But this was like the reſt, an Act of grace,</l>
+               <l>And Charles would not be judge in his own caſe.</l>
+               <l>Leaſt truth unvail'd, prerogative might marre,</l>
+               <l>And <hi>George</hi> call <hi>Charles</hi> along unto the Barre.</l>
+            </lg>
+            <lg>
+               <l n="175">But Goſſip <hi>Truth</hi> leave pratling: Doctors ſay</l>
+               <l>
+                  <hi>Charles</hi> never murderer pardoned, and pray</l>
+               <l>Dare the Lay-animals from their rules ſwerve,</l>
+               <l>When the Prieſts lips all knowledge muſt preſerve?</l>
+               <l>Or dare thy boldeſt Sonnes believe this deed?</l>
+               <l n="180">And ſo deny one point of the Cabs Creed.</l>
+               <l>O! Infidels who will believe their eyes</l>
+               <l>Befre theſe Ghoſtly Fathers fopperies.</l>
+            </lg>
+            <lg>
+               <l>O for a Cloud! 'tis ignorance only can</l>
+               <l>Preſerve devotion in the Engliſh man.</l>
+               <l n="185">This light of truth quite ſpoyles the trade of <hi>Rome,</hi>
+               </l>
+               <l>And robs <hi>Charles</hi> of the Crowne of Martyrdome,<note place="margin">Which ad<g ref="char:EOLhyphen"/>journed be<g ref="char:EOLhyphen"/>becauſe of the plague at <hi>London.</hi>
+                  </note>
+               </l>
+            </lg>
+            <lg>
+               <l>The Parliament's broke up; they could not ſhunn</l>
+               <l>Their fate though they had unto <hi>Oxford</hi> runn,</l>
+               <l>
+                  <hi>Oxford</hi> is part of <hi>England,</hi> there they fall;</l>
+               <l n="190">
+                  <hi>Charles</hi> reign'd, the plague was Epidemicall.</l>
+               <l>One Cittie is to narrow for to mourne</l>
+               <l>The Nation muſt attend on <hi>James</hi> his Urne,</l>
+               <l>And <hi>London's</hi> plague (which never Engliſh eye</l>
+               <l>Equal'd beheld untill his Tyrannie)</l>
+               <l n="195">To the three Nations the Almighty ſent,</l>
+               <l>To typifie the following puniſhment.</l>
+               <l>
+                  <pb n="11" facs="tcp:165578:7"/>
+The hundred thouſands, which theſe ſeaven yeares fel</l>
+               <l>Five thouſand in ſeaven dayes did then foretell;</l>
+               <l>
+                  <hi>That England, Scotland, Ireland now may ſay,</hi>
+               </l>
+               <l n="200">
+                  <hi>Thouſands the plague, ten thouſands Charles did ſlay.</hi>
+               </l>
+               <l>Nor could an Ocean bound him, <hi>France</hi> muſt feel</l>
+               <l>In <hi>Rochels</hi> bowels, <hi>Charles</hi> his treacherous ſteel:</l>
+               <l>There were not Proteſtants enough at home,</l>
+               <l>To ſtate his furie, he abroad muſt roame;</l>
+               <l n="205">And as if <hi>Englands</hi> earth could not ſuffice,</l>
+               <l>To drinke the blood ſpilt by his Tragedies;</l>
+            </lg>
+            <lg>
+               <l>Both <hi>Cales</hi> and <hi>Re,</hi> the <hi>French</hi> and <hi>Spaniſh</hi> Sword,</l>
+               <l>To murder Engliſh-men muſt helpe afford.</l>
+               <l>At laſt <hi>Charles,</hi> who ſo prodigally ſpent</l>
+               <l n="210">His! Cannon to beate downe a Parliament,</l>
+               <l>Rows'd juſtice with his Thunder, who thought good,</l>
+               <l>He who in ſlaughter liv'd, ſhould dye in blood.</l>
+               <l>Now you much inju'rd ſoules, who did ſo long</l>
+               <l>About <hi>Aſtraea's</hi> Throne for juſtice throng:</l>
+               <l n="215">Now ceaſe complaints; for <hi>Charles</hi> hath paid that due</l>
+               <l>By the keen Axe, which he did owe to you.</l>
+               <l>Revenge with leaden feet may ſlowlie come,</l>
+               <l>Her armes are ſteel, and when ſhe ſtrikes, ſtrikes home.</l>
+               <l>And thou much angre'd Heaven, accept his head,</l>
+               <l n="220">As his Soules ranſome for the blood he ſhed.</l>
+               <l>And let this corporall puniſhent ſuffice,</l>
+               <l>That blood may ne're in judgement crying riſe.</l>
+               <l>Then ſhall this ſentencefull as gainefull be</l>
+               <l>To <hi>Charles,</hi> as <hi>England,</hi> which ſeem'd juſt to thee.</l>
+               <l n="225">
+                  <hi>This ſaid, the Genius ceas'd, The Soldiers make</hi>
+               </l>
+               <l>
+                  <hi>A mighty ſhout, Then did our Dreamer wake.</hi>
+               </l>
+            </lg>
+         </div>
+      </body>
+      <back>
+         <div type="postscript">
+            <pb n="12" facs="tcp:165578:8"/>
+            <head>
+               <hi>A POST SCRIPT</hi> To the Reader.</head>
+            <p>THat thou mayeſt be the better confirmed of the realli<g ref="char:EOLhyphen"/>tie of this relation, I ſhall preſent thee with a Copie of verſes I had begun, but was ſtopt by the arreſt of ſleepe (who preſented this dreame to me that time) from going for<g ref="char:EOLhyphen"/>ward; I have left them, as ſleepe found them, and would nei<g ref="char:EOLhyphen"/>ther eraſe or add one tittle: if they ar abrupt, you had beſt quarrell with <hi>Morpheus,</hi> yet take heed he ſerve you not as he did me: if this Relation pleaſe thee, I am ſorrie thou hadſt it not ſooner: if thou be peeviſh and incredulous, I leave thee to the dull Gentleman, to have this or the like knock't into thy pate with his leaden Mace, the only argument able to con<g ref="char:EOLhyphen"/>vince thoſe, whom truth and reaſon cannot conquer. But I hope the beſt therefore farewell.</p>
+            <closer>
+               <dateline>Cambridge <date>
+                     <hi>earlie in the morning.</hi>
+                  </date>
+               </dateline> 
+               <signed>
+                  <hi>Thy friend, or foe, chooſe thee whither. Sir,</hi> The Dreamer.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <pb n="13" facs="tcp:165578:8"/>
+            <head>
+               <hi>THE ELEGIE</hi> The Dreamer was making.</head>
+            <lg>
+               <l>COuld <hi>Charles</hi> expire, and yet no Comet burne?</l>
+               <l>Or blazing Starre wait on him to his Urne?</l>
+               <l>To tell the wandring world his fall drew nigh:</l>
+               <l>And with him too the fate of Monarchie.</l>
+               <l>Had ſable weeds ſo totally or'e ſpread</l>
+               <l>Heavens mourning face? no Star could ſhew its head.</l>
+               <l>Was moyſture ſo predominant above?</l>
+               <l>No fire could through aires weeping regions move?</l>
+               <l>And ſo their moiſter influence cauſe to expire,</l>
+               <l>Old loyall flames, which Subjects hearts ſhould fire.</l>
+               <l>O ye-O ye-</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </back>
+   </text>
+</TEI>
